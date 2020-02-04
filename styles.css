@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+/* Header */
+
+.header {
+    width: 100%;
+    height: 100vh;
+    padding: 30px 0;
+
+    
+    background: url(..//FitApp/images/header__background.jpg) center no-repeat;
+    background-size: cover;
+    
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 15px;
+}
+
+.logo {
+    font-size: 38.6px;
+    color: #e5e5e5;
+    font-weight: bold;
+
+    
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    list-style: none;
+    margin-left: 15px;  
+    padding: 10px 20px;
+}
+
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+
+    text-decoration: underline;
+    color: yellow;
+}
+
+
+.nav__item.last {
+    background: #fff;
+    border-radius: 45px;
+
+    text-decoration: none;
+
+    width: 140px;
+    height: 45px;
+    padding: 10px 37px;
+}
+
+.nav__item.last a {
+    color: #2ecc71;
+    text-decoration: none;    
+}
+
+.text {
+    width: 100%;
+    max-width: 670px;
+    margin: 0 15px;
+    margin-top: 30px;
+}
+
+.header__title {
+    font-size: 64px;
+    color: #fff;
+}
+
+.header__text {
+    font-size: 18px;
+    color: #fff;
+}
+
+.header__img {
+    border-radius: 25px;
+}
+
+.icon {
+    margin: 0 15px;
+    margin-top: 100px;
+}
+
+/* Main */
+
+.main {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.phone__photo {
+    width: 675px;
+}
+
+.main__conteiner {
+    display: flex;
+}
+
+.main__content {
+    margin-top: 310px;
+    margin-left: 30px;
+}
+
+.main__suptitle {
+    font-size: 40px;
+    color: #5a5a5a;
+}
+
+.green__text {
+    color: #2ecc71;
+}
+
+.main__text {
+    font-size: 18px;
+    color: #5a5a5a;
+}
+
+/* Content */
+
+.plan {
+    width: 100%;
+    background: url(../FitApp/images/plan__background.jpg) no-repeat center;
+    height: 900px;
+    margin-top: 50px;
+}
+
+.plan__title {
+    text-align: center;
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+/* Manage */
+
+.manage {
+    height: 710px;
+    background-color: #ffffff;
+}
+
+.manage__title {
+    width: 100%;
+    max-width: 530px;
+
+    padding-top: 280px;
+}
+
+.manage__content {
+    width: 100%;
+    display: flex;
+}
+
+.food {
+    width: 100%;
+    max-width: 580px;
+    height: 100%;
+    max-height: 480px;
+
+    margin-left: 130px;
+    padding-top: 150px;
+}
+
+.food__item {
+    border: 1px solid #eceded;
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    width: 420px;
+    height: 110px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.food__item.second {
+    width: 525px;
+    height: 135px;
+    margin-left: 0px;
+    
+}
+
+.food__item.third {
+    background: #f9f9f9;
+}
+
+.food__content {
+    padding: 20px 25px;
+    display: flex;
+
+    
+}
+
+.food__text {
+    margin-left: 15px;
+}
+
+.food__hour {
+    padding-left: 71px;
+}
+
+.food__hour.third {
+    padding-left: 37px;
+}
+
+.food__item.second .food__hour {
+    padding-left: 100px;
+   
+}
+
+
+.name {
+    font-size: 15.68px;
+    font-weight: bold;
+    color: #2ecc71;
+
+}
+
+.about {
+    font-size: 12.32px;
+    color: #5a5a5a;
+}
+
+.weight {
+    font-size: 12.32px;
+    font-weight: bold;
+    color: #46d07d;
+
+    text-transform: uppercase;
+}
+
+.hour {
+    font-size: 24.64px;
+    font-weight: bold;
+    color: #b4b4b4;
+    text-transform: uppercase;
+}
+
+.hour.second {
+    font-size: 30.8px;
+}
+
+.hour__text {
+    text-align: end;
+
+    font-size: 15.68px;
+    color: #b4b4b4;
+    text-transform: uppercase;
+}
+
+.food__text.second .name {
+    font-size: 19.6px;
+}
+
+.food__text.second .about,
+.food__text.second .weight {
+    font-size: 15.4px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    max-width: 2000px;
+
+    height: 445px;
+
+    background: url(../FitApp/images/footer.jpg);
+}
+
+.footer__content {
+    text-align: center;
+    padding-top: 100px;
+    width: 835px;
+    margin: 0 auto;
+}
+
+.footer__title {
+    font-size: 48px;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.footer__text {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer__button {
+    width: 250px;
+    height: 43px;
+
+    margin-top: 55px;
+
+    border-radius: 10px;
+    background: #ffffff;
+    border: #ffffff;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #46d07d;
+}
+
+.footer__button:hover {
+    cursor: pointer;
+}
