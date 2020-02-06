@@ -353,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 550px) {
     
     body {
-        min-width: 860px;
+        min-width: 830px;
     }
 
     .conteiner {
@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .header {
         min-height: 650px;
-        min-width: 860px;
+        
     } 
 
     .logo {
@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .main {
-        min-width: 860px;
+        
     }
 
     .phone {
