@@ -349,3 +349,55 @@ h1, h2, h3, h4, h5, h6 {
 .footer__button:hover {
     cursor: pointer;
 }
+
+@media (max-width: 320px) {
+    .header {
+        min-height: 650px;
+        min-width: 860px;
+    } 
+
+    .logo {
+        font-size: 26.6px;
+
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .header__img {
+        border-radius: 7px;
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .header__title {
+        font-size: 42px;
+        
+    }
+
+    .header__text {
+        font-size: 19px;
+        
+    }
+
+    .text {
+        max-width: 520px;
+    }
+
+    .main {
+        min-width: 860px;
+    }
+
+    .phone {
+        width: 500px;
+        height: 540px;
+    }
+
+    .main__content {
+        margin-top: 160px;
+    }
+
+    
+}
