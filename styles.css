@@ -399,8 +399,8 @@ h1, h2, h3, h4, h5, h6 {
         max-width: 520px;
     }
 
-    .main {
-        
+    .manage__title {
+        padding-left: 10px;
     }
 
     .phone {
@@ -414,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .main__suptitle {
-        font-size: 29px;
+        font-size: 28px;
         ;
     }
 
