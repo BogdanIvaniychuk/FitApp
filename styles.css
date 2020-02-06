@@ -351,6 +351,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 320px) {
+    
+    body {
+        min-width: 860px;
+    }
+
+    .conteiner {
+        padding: 10px 0;
+    }
+    
     .header {
         min-height: 650px;
         min-width: 860px;
@@ -363,6 +372,10 @@ h1, h2, h3, h4, h5, h6 {
 
     .navigation {
         display: none;
+    }
+
+    .icon {
+        margin-top: 70px;
     }
 
     .header__img {
@@ -397,7 +410,21 @@ h1, h2, h3, h4, h5, h6 {
 
     .main__content {
         margin-top: 160px;
+        margin-left: 0;
     }
 
-    
+    .main__suptitle {
+        font-size: 29px;
+        ;
+    }
+
+    .plan__title {
+        max-width: 660px;
+    }
+
+    .food {
+        margin-left: 0;
+    }
+
+
 }
