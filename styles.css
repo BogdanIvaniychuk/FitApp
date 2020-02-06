@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 550px) {
     
     body {
         min-width: 860px;
